@@ -1,0 +1,92 @@
+body {
+    background-image: url(../images/fondo-mosaico.jpg);
+}
+
+header {
+    position: absolute;
+}
+
+nav {
+    text-align: right;
+    position: relative;
+}
+
+.main-aside {
+    margin-top: 200px;
+}
+
+.fa {
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: .5s;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    width: 65px;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin: auto;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin: auto;
+  }
+
+  /* Instagram */
+  .fa-instagram {
+    background: purple;
+    color: white;
+    margin: auto;
+  }
+
+article {
+    background-color: #3B5998;
+    padding: 10px;
+    min-width: 200px;
+}
+
+article h3 {
+    text-align: center;
+}
+
+article p {
+    font-size: medium;
+}
+
+form {
+    background-color: #55ACEE;
+    padding: 10px;
+    min-width: 200px;
+}
+
+.social-media {
+    background-color: antiquewhite;
+    margin: 10px;
+    height: 300px;
+    text-align: center;
+}
+
+.social-media a {
+    margin-top: 30px;
+}
+.carousel-article img{
+    height: 150px;
+    width: 100%;
+    margin: 0;
+}
+
+.parrafo1 {
+    margin-top: 10px;
+}
